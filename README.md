@@ -13,9 +13,9 @@
 
 Copy and paste this into your markdown content, and that's it. Simple!
 
-My project, which is based on [github-readme-stats](https://github.com/anuraghazra/github-readme-stats), focuses on showing GitHub repository contribution stats and applies the typescript to the original project. Refer to [ISSUE#2027](https://github.com/anuraghazra/github-readme-stats/issues/2027). Thank you [@anuraghazra](https://github.com/anuraghazra) for the awesome open-source project!
+My project, based on [github-readme-stats](https://github.com/anuraghazra/github-readme-stats), shows GitHub repository contribution stats and applies the typescript to the original project. Refer to [ISSUE#2027](https://github.com/anuraghazra/github-readme-stats/issues/2027). Thank you [@anuraghazra](https://github.com/anuraghazra) for the awesome open-source project!
 
-After I have applied this, I became enthusiastic about contributing to open source because I can see all my contributions in my Github Readme! If you guys star and let your friends know this, I really appreciate that!
+After I had applied this, I became enthusiastic about contributing to open source because I can see all my contributions in my Github Readme! If you guys star and let your friends know about this, I really appreciate it!
 
 Change the `?username=` value to your GitHub username.
 
@@ -53,7 +53,7 @@ To show contributor ranks, you can pass a query parameter `&hide_contributor_ran
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B,B%2B&hide_contributor_rank=false&limit=5)
 ```
 
-### Configuring the sorting order for gitHub contributor stats
+### Configuring the sorting order for GitHub contributor stats
 
 To specify the sorting order based on either contributions or star count, include the &order_by= query parameter with the options `stars` or `contributions` in your request URL.
 
@@ -61,7 +61,7 @@ To specify the sorting order based on either contributions or star count, includ
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B,B%2B&hide_contributor_rank=false&limit=5&order_by=contributions)
 ```
 
-### Including all contributions, not only recent contributions
+### Including all contributions, not only recent ones
 
 By default, the card is generated from GitHub's GraphQL API `repositoriesContributedTo`, which only includes recent contributions. To include all contributions, add `&combine_all_yearly_contributions=true` query parameter, which will let the card be generated from GitHub's GraphQL API `contributionsCollection`, including all contributions.
 
@@ -71,9 +71,9 @@ By default, the card is generated from GitHub's GraphQL API `repositoriesContrib
 
 ### Themes
 
-With inbuilt themes, you can customize the look of the card without doing any [manual customization](#customization).
+With inbuilt themes, you can customize the card's look without doing any [manual customization](#customization).
 
-Use `&theme=THEME_NAME` parameter like so :-
+Use `&theme=THEME_NAME` parameter like so:-
 
 ```md
 ![Taehyun's GitHub Repository Contribution stats](https://github-contributor-stats.vercel.app/api?username=HwangTaehyun&hide=B&theme=default)
@@ -89,13 +89,13 @@ You can look at a preview for [all available themes](./themes/README.md) or chec
 
 ## :sparkling_heart: Support the project
 
-I open-source almost everything I can and try to reply to everyone needing help using these projects. Obviously,
-this takes time. You can use this service for free.
+I open-source almost everything I can and try to reply to everyone needing help using these projects. 
+This takes time. You can use this service for free.
 
 However, if you are using this project and are happy with it or just want to encourage me to continue creating stuff, there are a few ways you can do it:
 
 - Starring and sharing the project :rocket:
-- You can make one-time donations via buymeacoffee. I'll probably buy a coffee! :coffee:
+- You can make one-time donations via Buymeacoffee. I'll probably buy a coffee! :coffee:
 
 [!["Buy Me A Coffee"](https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png)](https://www.buymeacoffee.com/eeht17173)
 
